@@ -1,0 +1,46 @@
+$free-img:url("../../Assets/ic_shipping.png");
+
+.Item-wrapper{
+    display: flex;
+    background: #FFF;
+    color: #333;
+    padding: 16px;
+    border: 1px solid #EEE;
+    .img-wrapper{
+        width: 180px;
+        margin-right: 16px;
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+            max-width: 180px;
+            height:  180px;
+            border-radius: 4px;
+
+        }
+    }
+    .Item-data{
+        width: 60%;
+        .i-price{
+            font-size: 24px;
+        }
+        .i-place{
+            font-size: 12px;
+            float: right;    
+            position: relative;
+            top: 20px;
+            right: 0px;
+            color: #666;
+        }
+        .i-title{
+            font-size: 18px;
+            margin-top: 32px;
+        }
+        .i-free:after{
+            content: $free-img;
+            margin-left: 5px;
+        }
+
+    }
+}

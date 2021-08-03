@@ -1,0 +1,19 @@
+.search{
+  width: 72%;  ///
+  .anticon-search{
+    svg{
+      fill:#000
+    }
+  }
+  .ant-input-group-addon{
+    background-color: #EEE;
+  }
+  .ant-input-search-button{
+    background: #EEE;
+    border: none;
+  }
+  input{
+    font-size: 18px;
+    border: none;
+  }
+}

@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+
+
+.App-logo {  
+  //height: 32px;
+  //width: auto;
+  margin-left: 10%; //
+  margin-top:11px;
+  margin-right: 25px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #FFE600;
+  display: flex;
+  .h-content{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+}
+.App-content{
+  margin-left: 10%; //
+  margin-right: 10%; //
+  padding-bottom: 50px;
+
+}
+.breadcrumb{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
